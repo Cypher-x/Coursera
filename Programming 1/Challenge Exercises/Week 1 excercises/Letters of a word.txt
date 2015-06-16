@@ -1,0 +1,7 @@
+def ID_firstletter(word):
+    first_letter = word[0]
+    rest_of_word = word[1 : ]
+    print ("first letter is: " + first_letter)
+    print ("rest of the word is: " + rest_of_word)
+
+ID_firstletter("catafddsf")

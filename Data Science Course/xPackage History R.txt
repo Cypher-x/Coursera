@@ -1,0 +1,6 @@
+Installed by: install.packages()
+- XML
+- jsonlite
+- data.table
+- xlsx
+- swirl

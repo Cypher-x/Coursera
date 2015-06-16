@@ -1,0 +1,16 @@
+# Compute whether the given time is lunchtime.
+
+# Compute whether a person is cool.
+
+def lunch_time(time,meridiem):
+    if (time == 11) and (meridiem == "am" or meridiem == "AM"):
+        return (str(time) + str(meridiem) + ", It's lunch time.")
+    elif (time == 12) and (meridiem == "pm" or meridiem == "PM"):
+        return (str(time) + str(meridiem) + ", It's lunch time.")
+    else:
+        return (str(time) + str(meridiem))
+
+print(lunch_time(11,"AM"))
+print(lunch_time(11,"pm"))
+print(lunch_time(12,"pm"))
+print(lunch_time(1,"am"))

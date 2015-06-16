@@ -1,0 +1,25 @@
+# Quadratic equation
+"""ax2+bx+c=0"""
+"""x = -b (+or-) ( sqrt(b**2 - 4ac) ) / 2a"""
+"""Note: x can have 0, 1, or 2 real solutions."""
+"""Discriminant = sqrt(b**2 - 4ac). If positive then 
+2 solutions, if 0 then 1 solution, 
+if negative then 0 solutions."""
+import math
+
+def quadratic_eq(a,b,c):
+    discriminate = b**2 - 4*a*c
+    if discriminate > 0:
+        frst_awsr = -b + discriminate / (2*a)
+        sec_awsr = -b - discriminate / (2*a)
+        print(str(frst_awsr) + " and " + str(sec_awsr))
+    elif discriminate == 0:
+        print (-b/2*a)
+    elif discriminate < 0:
+        print "Error: No real solutions"
+    else:
+        print "Error: No real solutions"
+        
+quadratic_eq(1, 2, 1)
+quadratic_eq(2, 11, -10)
+quadratic_eq(6, -3, 5)

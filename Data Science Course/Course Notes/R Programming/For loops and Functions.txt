@@ -1,0 +1,64 @@
+x <- c("a","b","c","d")
+
+#Print out i th element of x
+for (i in 1:4) {
+            print(x[i])
+}
+
+#Creates integer sequence equal to length of sequence
+for(i in seq_along(x)){
+            print(x[i])
+}
+
+
+#Print out letter in the vector
+for(letter in x) {
+            print(letter)
+}
+
+
+#Nesting a loop
+x <- matrix(1:6,2,3)
+print(x)
+for(i in seq_len(nrow(x))){
+        for(j in seq_len(ncol(x))) {
+          print(x[i,j])
+        }
+}
+
+#While loop: Loops as long as count is less than 10
+count <- 0
+while(count < 10) {
+        print(count)
+        count <- count + 1
+}
+
+
+
+#Add 2 values together
+add2 <- function(x,y){
+        x + y
+}
+
+add2(3,5)
+
+#Gives any number above n (default value is 10)
+above <- function(x, n = 10){
+        use <- x > n
+        x[use]
+}
+
+x <- 1:20
+above(x)
+above(x,12)
+
+
+#Take matrix and calculate mean of each column
+column_mean <- function(y, removeNA = TRUE){
+          nc <- ncol(y)
+          means <- numeric(nc)
+          for(i in 1:nc) {
+                mean[i] <- mean(y[, i], na.rm = removeNA)
+          }
+          means  
+}

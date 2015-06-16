@@ -1,0 +1,27 @@
+import simplegui
+
+#Global
+counter = 0
+#Helper
+def increment():
+    global counter
+    counter = counter + 1
+
+#Handler
+def tick():
+    increment()
+    print counter
+def buttonpress():
+    global counter
+    counter = 0
+    
+# Create a frame
+frame = simplegui.create_frame("SimpleGUI Test", 100, 100)
+
+#Register event handler
+timer = simplegui.create_timer(1000, tick)
+frame.add_button("Click me!", buttonpress)
+
+#Start frame and timer
+frame.start()
+timer.start()

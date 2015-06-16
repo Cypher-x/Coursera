@@ -1,0 +1,20 @@
+# Powerball numbers with duplicates
+
+import random
+
+def powerball():
+    a = random.randrange(0, 60)
+    b = random.randrange(0, 60)
+    c = random.randrange(0, 60)
+    d = random.randrange(0, 60)
+    e = random.randrange(0, 60)
+    pwr_ball = random.randrange(1, 36)
+    return ("Today's numbers are " + str(a) + 
+                                ", " + str(b) + 
+                                ", " + str(c) +
+                                ", " + str(d) +
+                                ", and " + str(e) +
+                                ". The Powerball number is " +
+                                str(pwr_ball) + ".")
+
+print powerball()

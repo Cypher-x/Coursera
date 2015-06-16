@@ -1,0 +1,93 @@
+Code Skulpter 
+
+Week 0 
+Excercises:
+http://www.codeskulptor.org/#user40_jBRNSNZFxt_3.py
+
+Week 1a
+Lessons:
+http://www.codeskulptor.org/#user40_07R828PmPG_3.py
+
+Week 1b
+Lessons:
+http://www.codeskulptor.org/#user40_D0E6xK66rM_3.py
+http://www.codeskulptor.org/#user40_LA6HiOJiKG_2.py
+
+Project1:
+Rock paper sissor lizard spock
+http://www.codeskulptor.org/#user40_3Eb96zwE93_4.py
+
+Week 2a:
+Lessons:
+Timer example
+http://www.codeskulptor.org/#user40_ng0Ewg14huzO72K_0.py
+
+Local vs Global
+http://www.codeskulptor.org/#user40_ng0Ewg14huzO72K_2.py
+
+Click to reset timer Program
+http://www.codeskulptor.org/#user40_ng0Ewg14huzO72K_3.py
+
+Week 2b:
+Lessons:
+Calculator
+http://www.codeskulptor.org/#user40_LoxU2G1GGW_13.py
+
+n = 0
+
+def increment():
+    global n
+    n = n + 1
+    
+n = 0
+
+def assign(x):
+    global n
+    n = x
+
+assign(2)
+assign(15)
+assign(7)
+
+print n
+
+n = 0
+
+def decrement():
+    global n
+    n = n - 1
+    
+x = decrement()
+
+print "x = ", x
+print "n = ", n
+
+import simplegui
+
+x = 0
+
+def f(n):
+    print "f : n, x = ",n,x
+    print "f : n, result = ",n**x
+    return n**x
+
+def button_handler():
+    global x
+    print "bh : x = ",x
+    x += 1
+    print "bh : x = ",x
+    
+    
+def input_handler(text):
+    print "ih : text = ",text
+    print f(float(text))
+    
+frame = simplegui.create_frame("Example",200,200)
+frame.add_button("Increment",button_handler)
+frame.add_input("Number:",input_handler,100)
+
+frame.start()
+
+def f(a, b)
+
+

@@ -1,0 +1,30 @@
+# Lapply - takes a list and apply a function to each element of a list. returns a list.
+x <- list(a = 1:5, b = rnorm(10))
+lapply(x, mean)
+
+# example: Annoymous functions in lapply. A function within lapply, calls the frist row of the matrix
+x <- list(a = matrix(1:4, 2, 2), b = matrix(1:6, 3, 2))
+x
+
+lapply(x, function(row_1) row_1[1,])
+
+
+# Sapply - takes a list and apply a function to each element of a list. but returns a vector.
+#split takes x and apply it the number of factors identified in f.
+
+library(datasets)
+data(mtcars)
+
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+
+
+#Splits and applies means of air quality to each month
+library(datasets)
+head(airquality)
+
+split_month <- split(airquality, airquality$Month)
+sapply(split_month, function(x) 
+  colMeans(x[,c("Ozone", "Solar.R", "Wind")],na.rm=T))
+
+#Split based on multiple factors
+str(split(x, list(f1, f2), drop = T))

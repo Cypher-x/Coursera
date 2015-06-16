@@ -1,0 +1,15 @@
+#calculates sum or means of rows or columns in matrix
+
+rowSums
+rowMeans
+colSums
+colMeans
+
+#apply - apply a function to a matrix, specifying which dimention to keep. 1 = row, 2= col
+x <- matrix(rnorm(200), 20, 10)
+
+apply(x, 2, mean)
+	#calculates mean of each column.
+
+apply(x, 1, sum)
+	#calculates sum of each row.

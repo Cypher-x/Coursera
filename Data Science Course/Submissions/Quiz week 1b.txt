@@ -1,0 +1,25 @@
+library(XML)
+library(bitops)
+library(RCurl)
+
+fileURL <- "http://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+doc <- xmlTreeParse(fileURL,useInternal = TRUE,)
+#also htmlTreeParse
+
+rootNode <- xmlRoot(doc)
+xmlName(rootNode)
+
+##Extracting the first item
+rootNode[[1]]
+
+name <- xpathSApply(rootNode,"//name",xmlValue)
+zip <- xpathSApply(rootNode,"//zipcode",xmlValue)
+neighbor <- xpathSApply(rootNode,"//neighborhood",xmlValue)
+councildist <- xpathSApply(rootNode,"//councildistrict",xmlValue)
+policedist <- xpathSApply(rootNode,"//policedistrict",xmlValue)
+
+##Creates a table of data
+cbind(neighbor,zip, councildist)
+length(which(zip == 21231))
+
+

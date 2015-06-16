@@ -1,0 +1,51 @@
+data_directory <- "C:/Users/Win/Desktop/Coursera/Data Science Course/R Data"
+setwd(data_directory)
+data <- read.csv("quiz week 1 data.csv", nrows = 100)
+class <- sapply(data, class)
+data <- read.csv("quiz week 1 data.csv", 
+                 colClasses = class)
+
+#head: provides a quick glance at the data
+head(data)
+
+#Countifs Solar.R where Ozone > 31 and Temp > 90
+subset <- data[data$Ozone > 31 & data$Temp > 90,]
+sum(complete.cases(subset$Solar.R) == TRUE)
+
+
+#Averageifs
+subset <- data[data$Ozone > 31 & data$Temp > 90,]
+mean(subset$Solar.R, na.rm=TRUE)
+
+subset <- data[data$Temp > 90,]
+mean(subset$Ozone, na.rm=TRUE)
+
+subset_Jun <- data[data$Month == 6,]
+mean(subset_Jun$Temp, na.rm=TRUE)
+
+subset_May <- data[data$Month == 5,]
+max(subset_May$Ozone, na.rm=TRUE)
+
+#Sumifs
+subset <- data[data$Ozone > 31 & data$Temp > 90,]
+sum(subset$Solar.R, na.rm=TRUE)
+
+
+====
+
+ex:
+
+library(datasets)
+data(mtcars)
+
+test <- mtcars$cyl
+
+cyl_4 <- mtcars[mtcars$cyl == 4,]
+cyl_8 <- mtcars[mtcars$cyl == 8,]
+
+abs_meandiff <- abs(mean(cyl_4$hp, na.rm=T) 
+                 - mean(cyl_8$hp, na.rm=T))
+
+abs_meandiff
+
+

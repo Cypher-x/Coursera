@@ -1,0 +1,23 @@
+# Compute and print tens and ones digit of an integer in [0,100).
+
+import math
+
+def digits(x):
+    if (x <= 99) and (x>=0): 
+        dig_10 = x//10
+        dig_1 = x%10
+        return "The tens digit is " + str(dig_10) + ", and the ones digit is " + str(dig_1)
+    else: 
+        print "Error: Input is not a two-digit positive number."
+
+print digits(42)
+print digits(99)
+print digits(5)
+print digits(100)
+print digits(-11)
+
+###################################################
+# Expected output
+#The tens digit is 4, and the ones digit is 2.
+#The tens digit is 9, and the ones digit is 9.
+#The tens digit is 0, and the ones digit is 5.
