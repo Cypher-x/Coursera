@@ -27,3 +27,15 @@ DT[, .N, by=y]
 setkey(DT,y)
 DT["a"]
 
+#Column Bind and Row bind to a matrix
+patients <- c("Bill","Gina","Kelly","Sean")
+data <- c(1:4)
+
+cbind(patients, data)
+rbind(patient, data)
+
+#Column Naming
+cnames <- c("patient", "age", "gender")
+colnams(data) <- cnames
+
+

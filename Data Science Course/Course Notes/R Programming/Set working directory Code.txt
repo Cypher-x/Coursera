@@ -1,2 +1,0 @@
-setwd("C:/Users/wcai/Desktop/Coursera/Data Science course/R data")
-getwd()

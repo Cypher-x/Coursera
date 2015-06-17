@@ -1,0 +1,30 @@
+setwd("C:/Users/wcai/Desktop/Coursera/Data Science course/R data")
+getwd()
+
+list.files()
+#lists files in working directory
+
+head(data, 10)
+#provides a quick glance at the data, first 10 rows
+
+tail(data, 10)
+#provides a quick glance at the data, last 10 rows
+
+
+dim(data)
+#shows number of rows and columns
+
+nrow(data)
+#number of rows
+
+summary(data)
+
+names(data)
+#names of columns
+
+str()
+#provides a quick glance at the structure of an object
+
+
+
+

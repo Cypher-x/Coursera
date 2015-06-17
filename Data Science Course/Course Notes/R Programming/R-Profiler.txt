@@ -1,0 +1,8 @@
+R-Profiler
+
+system.time() 
+#computes time in seconds need to execute code.
+
+Rprof()
+summaryRprof()
+#Sampling the Call stack

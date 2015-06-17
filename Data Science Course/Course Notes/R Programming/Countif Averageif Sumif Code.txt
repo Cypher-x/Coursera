@@ -5,12 +5,11 @@ class <- sapply(data, class)
 data <- read.csv("quiz week 1 data.csv", 
                  colClasses = class)
 
-#head: provides a quick glance at the data
-head(data)
 
 #Countifs Solar.R where Ozone > 31 and Temp > 90
 subset <- data[data$Ozone > 31 & data$Temp > 90,]
 sum(complete.cases(subset$Solar.R) == TRUE)
+sum(!is.na(subset$Solar.R) == TRUE)
 
 
 #Averageifs
