@@ -6,4 +6,7 @@ paste(my_char, collapse = " ")
 paste("0", i, sep="")
 
 #Idendifies all the non-NAs
-!is.na(my_data)
+complete.cases(my_data)
+
+#Creates a data frame without NAs
+na.omit(my_data)

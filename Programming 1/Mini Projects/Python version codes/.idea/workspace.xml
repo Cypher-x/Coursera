@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84f66d55-60bc-4c76-b67f-54ce9f3b2e9c" name="Default" comment="">
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\Course Notes\Data Scrapping\Convert XML to data.txt" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\Course Notes\Data Scrapping\Download File example code.txt" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\Course Notes\R Programming\Loop apply.txt" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\Course Notes\R Programming\Matrix and data table notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\American Community Survey Meta.pdf" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\American Community Survey.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\Hospitals Project\Hospital_Revised_Flatfiles.pdf" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\Hospitals Project\hospital-data.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\Hospitals Project\outcome-of-care-measures.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\.Rhistory" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\001.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\002.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\003.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\004.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\005.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\006.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\007.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\008.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\009.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\010.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\011.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\012.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\013.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\014.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\015.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\016.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\017.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\018.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\019.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\020.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\021.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\022.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\023.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\024.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\025.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\026.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\027.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\028.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\029.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\030.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\031.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\032.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\033.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\034.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\035.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\036.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\037.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\038.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\039.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\040.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\041.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\042.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\043.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\044.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\045.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\046.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\047.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\048.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\049.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\050.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\051.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\052.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\053.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\054.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\055.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\056.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\057.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\058.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\059.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\060.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\061.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\062.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\063.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\064.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\065.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\066.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\067.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\068.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\069.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\070.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\071.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\072.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\073.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\074.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\075.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\076.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\077.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\078.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\079.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\080.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\081.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\082.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\083.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\084.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\085.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\086.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\087.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\088.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\089.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\090.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\091.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\092.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\093.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\094.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\095.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\096.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\097.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\098.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\099.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\100.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\101.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\102.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\103.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\104.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\105.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\106.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\107.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\108.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\109.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\110.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\111.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\112.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\113.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\114.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\115.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\116.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\117.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\118.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\119.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\120.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\121.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\122.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\123.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\124.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\125.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\126.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\127.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\128.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\129.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\130.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\131.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\132.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\133.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\134.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\135.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\136.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\137.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\138.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\139.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\140.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\141.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\142.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\143.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\144.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\145.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\146.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\147.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\148.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\149.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\150.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\151.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\152.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\153.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\154.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\155.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\156.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\157.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\158.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\159.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\160.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\161.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\162.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\163.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\164.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\165.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\166.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\167.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\168.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\169.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\170.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\171.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\172.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\173.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\174.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\175.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\176.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\177.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\178.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\179.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\180.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\181.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\182.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\183.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\184.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\185.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\186.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\187.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\188.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\189.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\190.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\191.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\192.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\193.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\194.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\195.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\196.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\197.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\198.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\199.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\200.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\201.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\202.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\203.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\204.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\205.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\206.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\207.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\208.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\209.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\210.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\211.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\212.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\213.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\214.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\215.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\216.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\217.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\218.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\219.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\220.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\221.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\222.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\223.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\224.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\225.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\226.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\227.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\228.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\229.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\230.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\231.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\232.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\233.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\234.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\235.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\236.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\237.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\238.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\239.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\240.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\241.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\242.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\243.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\244.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\245.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\246.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\247.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\248.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\249.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\250.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\251.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\252.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\253.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\254.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\255.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\256.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\257.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\258.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\259.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\260.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\261.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\262.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\263.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\264.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\265.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\266.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\267.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\268.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\269.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\270.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\271.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\272.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\273.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\274.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\275.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\276.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\277.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\278.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\279.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\280.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\281.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\282.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\283.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\284.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\285.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\286.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\287.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\288.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\289.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\290.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\291.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\292.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\293.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\294.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\295.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\296.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\297.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\298.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\299.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\300.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\301.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\302.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\303.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\304.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\305.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\306.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\307.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\308.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\309.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\310.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\311.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\312.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\313.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\314.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\315.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\316.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\317.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\318.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\319.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\320.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\321.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\322.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\323.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\324.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\325.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\326.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\327.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\328.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\329.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\330.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\331.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\R Data\specdata\332.csv" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\Submissions\Quiz week 1.R" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Data Science Course\Submissions\Quiz week 1b.txt" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Programming 1\Mini Projects\Guess the Number.txt" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Programming 1\Mini Projects\Rock-paper-scissors-lizard-Spock.txt" afterPath="" />
+      <change type="DELETED" beforePath="H:\5 Personal Projects\Coursera\Programming 1\Mini Projects\week 1 mini project peer comments.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Data Science Course/R Data/.Rhistory" afterPath="$PROJECT_DIR$/../../../Data Science Course/R Data/.Rhistory" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Data Science Course/Course Notes/R Programming/Countif Averageif Sumif Code.txt" afterPath="$PROJECT_DIR$/../../../Data Science Course/Course Notes/R Programming/Countif Averageif Sumif Code.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Data Science Course/Course Notes/R Programming/Navigating workspace and summarizing.txt" afterPath="$PROJECT_DIR$/../../../Data Science Course/Course Notes/R Programming/Navigating workspace and summarizing.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rock Paper Scissors.py" afterPath="$PROJECT_DIR$/Rock Paper Scissors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Course Notes/Timer Program.txt" afterPath="$PROJECT_DIR$/../../Course Notes/Timer Program.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Data Science Course/Course Notes/R Programming/Vectors and NAs.txt" afterPath="$PROJECT_DIR$/../../../Data Science Course/Course Notes/R Programming/Vectors and NAs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../xPackage History Python.txt" afterPath="$PROJECT_DIR$/../../xPackage History Python.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Data Science Course/xPackage History R.txt" afterPath="$PROJECT_DIR$/../../../Data Science Course/xPackage History R.txt" />
+    </list>
+    <ignored path="Python version codes.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Python version codes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="New file.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/New file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pong.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pong.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Rock Paper Scissors.py" />
+        <option value="$PROJECT_DIR$/Stopwatch.py" />
+        <option value="$PROJECT_DIR$/New file.py" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="width" value="871" />
+    <option name="height" value="693" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python version codes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python version codes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python version codes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://H:/5 Personal Projects/Coursera/Programming 1/Mini Projects/Python version codes/Guess the Number.py" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\5 Personal Projects\Coursera\Programming 1\Mini Projects\Python version codes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.New file">
+    <configuration default="false" name="Rock Paper Scissors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rock Paper Scissors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="New file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/New file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Guess the Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Guess the Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Stopwatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stopwatch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python version codes" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Rock Paper Scissors" />
+      <item index="1" class="java.lang.String" itemvalue="Python.New file" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Guess the Number" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Stopwatch" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.New file" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Stopwatch" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Guess the Number" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Rock Paper Scissors" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84f66d55-60bc-4c76-b67f-54ce9f3b2e9c" name="Default" comment="" />
+      <created>1434989592578</created>
+      <option name="number" value="Default" />
+      <updated>1434989592578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="0" width="871" height="693" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21258907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.504" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32582322" sideWeight="0.496" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.305026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/New file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="191" column="31" selection-start-line="191" selection-start-column="31" selection-end-line="191" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rock Paper Scissors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stopwatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043927647">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guess the Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044270832">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.6261683">
+          <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

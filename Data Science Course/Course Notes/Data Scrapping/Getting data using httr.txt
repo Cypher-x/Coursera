@@ -1,0 +1,20 @@
+#Scraping Data using httr
+# Example link: 
+#"http://scholar.google.com/citations?user=HI-I6C0AAAAJ&hl=en"
+
+url <- "http://scholar.google.com/citations?user=HI-I6C0AAAAJ&hl=en"
+library(httr); html2 = GET(url)
+content2 = content(html2, as="text")
+parsedHtml = htmlParse(content2,asText = TRUE)
+xpathSApply(html,"//title",xmlValue)
+
+#Authentication example
+pg2 = GET("http://httpgin.org/basic-auth/user/passwd",
+          authenticate("user","passwd"))
+pg2
+names(pg2)
+
+#Using handles
+google = handle("http://google.com")
+pg1 = GET(handle=google,path="/")
+pg2 = GET(handle=google,path="search")

@@ -1,0 +1,106 @@
+#__author__ = 'Cypher'
+try:
+    import simplegui
+except ImportError:
+    import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
+import random
+import math
+
+cpu_number = 0
+remaining_guesses = 7
+num_range = 100
+
+def new_game():
+    global cpu_number
+
+    secret_number = random.randrange(0,num_range+1)
+    cpu_number = 0
+    cpu_number += secret_number
+
+    print("New game. Range is from 0 to" , num_range)
+    print("Number of remaining guesses is ", remaining_guesses)
+    print(" ")
+
+def range100():
+    global num_range
+    global remaining_guesses
+    num_range = 100
+    remaining_guesses = 7
+    new_game()
+
+def range1000():
+    global num_range
+    global remaining_guesses
+    num_range = 1000
+    remaining_guesses = 10
+    new_game()
+
+def input_guess(guess):
+    global remaining_guesses
+    print("Guess was:" , str(guess))
+
+    upper = float(guess) <= num_range
+    lower = float(guess) > 0
+
+    if ((upper and lower) and
+        (remaining_guesses <= 1) and
+        (float(guess) != cpu_number)):
+
+        print("You have no more guesses left. Game Over.")
+        print(" ")
+        print("==========")
+        range100()
+
+    elif ((upper and lower) and
+        (remaining_guesses <= 1) and
+        (float(guess) == cpu_number)):
+
+        print("Correct!")
+        print("You had no more guesses left!")
+        print(" ")
+        print("==========")
+        range100()
+
+    elif (upper and lower) and (float(guess) > cpu_number):
+        remaining_guesses += -1
+        print("Number of remaining guesses is ", remaining_guesses)
+        print("Lower")
+        print(" ")
+
+    elif (upper and lower) and (float(guess) < cpu_number):
+        remaining_guesses += -1
+        print("Number of remaining guesses is ", remaining_guesses)
+        print("Higher")
+        print(" ")
+
+    elif (upper and lower) and (float(guess) == cpu_number):
+        remaining_guesses += -1
+        print("Number of remaining guesses is ", remaining_guesses)
+        print("Correct!")
+        print(" ")
+        print("==========")
+        range100()
+
+    elif (not upper) or (not lower):
+        print("Number is not in valid range. Please guess again.")
+        print("Number of remaining guesses is ", remaining_guesses)
+        print(" ")
+
+    else:
+        print("Number is not in valid range. Please guess again")
+        print("Number of remaining guesses is ", remaining_guesses)
+
+f = simplegui.create_frame("Guess the number", 200, 200)
+f.add_button("Range is [0, 100)", range100, 200)
+f.add_button("Range is [0, 1000)", range1000, 200)
+f.add_input("Enter a guess", input_guess, 200)
+f.start()
+
+new_game()
+
+#print "secret number is" , cpu_number
+
+# Enjoy the game!
+# Yours,
+# Cypher

@@ -1,0 +1,2 @@
+#convert power_smalldata to numeric
+DT_power <- data.table(sapply(power_smalldata,as.numeric))

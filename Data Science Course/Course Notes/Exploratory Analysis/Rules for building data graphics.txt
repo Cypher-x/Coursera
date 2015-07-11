@@ -1,0 +1,18 @@
+Principle 1: Show comparisons
+-Evidence is always relative to another competing hypothesis
+-Show a comparison in a plot Control vs Experimental
+
+Principle 2: Show causality, mechanism, or explaination
+-How you believe the world works
+
+Principle 3: Show multivariate data, show as much data on a single plot as you can.
+-integrate alot of data on a plot.
+
+Principle 4: Integration of evidence
+- don't let the tools drive the analysis
+- make as information rich as possible
+
+Principle 5: Describe and document evidence with labels and sources
+
+Principle 6: Content is king
+

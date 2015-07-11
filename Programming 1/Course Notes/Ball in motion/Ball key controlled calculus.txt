@@ -1,0 +1,58 @@
+# Moving a ball
+try:
+    import simplegui
+except ImportError:
+    import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
+#Initialize global
+width = 600
+height = 400
+ball_radius = 20
+
+ball_pos = [width / 2, height / 2]
+vel = [0, 0]
+acc = 0
+
+#Define Handlers
+def draw(canvas):
+    ball_pos[0] += vel[0]
+    ball_pos[1] += vel[1]
+    canvas.draw_circle(ball_pos, ball_radius, 2, "Green", "White")
+
+def keydown(key):
+    global acc
+    acc += 1
+    if key == simplegui.KEY_MAP["left"]:
+        vel[0] -= acc
+    elif key == simplegui.KEY_MAP["right"]:
+        vel[0] += acc
+    elif key == simplegui.KEY_MAP["down"]:
+        vel[1] += acc
+    elif key == simplegui.KEY_MAP["up"]:
+        vel[1] -= acc
+
+def keyup(key):
+    global acc
+    acc = 0
+    if key == simplegui.KEY_MAP["left"]:
+        vel[0] = acc
+    elif key == simplegui.KEY_MAP["right"]:
+        vel[0] = acc
+    elif key == simplegui.KEY_MAP["down"]:
+        vel[1] = acc
+    elif key == simplegui.KEY_MAP["up"]:
+        vel[1] = acc
+
+#Create frame and Register event handlers
+frame = simplegui.create_frame("Play Ball", width, height)
+frame.set_keydown_handler(keydown)
+frame.set_keyup_handler(keyup)
+frame.set_draw_handler(draw)
+
+frame.start()
+
+
+
+# Enjoy the game!
+# Yours,
+# Cypher

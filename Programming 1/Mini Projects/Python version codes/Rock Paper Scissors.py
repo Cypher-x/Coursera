@@ -1,6 +1,15 @@
-__author__ = 'Win'
-
+#__author__ = 'Cypher'
 # Rock-paper-scissors-lizard-Spock
+#sissors > paper
+#Paper > rock
+#Rock > lizard
+#Lizard > Spock
+#Spock > Sissors
+#Sissors > lizard
+#Lizard > paper
+#Paper > Spock
+#Spock > rock
+#rock > sissors
 
 def name_to_number(name):
     if name == "rock":
@@ -54,28 +63,14 @@ def rpsls(player_choice):
     if winner == 4:
         print("----Result: Computer Wins.")
 
-
-
-
-
-    # print a blank line to separate consecutive games
-
-    # print out the message for the player's choice
-
-    # convert the player's choice to player_number using the function name_to_number()
-
-    # compute random guess for comp_number using random.randrange()
-
-    # convert comp_number to comp_choice using the function number_to_name()
-
-    # print out the message for computer's choice
-
-    # compute difference of comp_number and player_number modulo five
-
-    # use if/elif/else to determine winner, print winner message
-
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
+
+#print "secret number is" , cpu_number
+
+# Enjoy the game!
+# Yours,
+# Cypher

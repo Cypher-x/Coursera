@@ -1,0 +1,12 @@
+Evaluator Feedback
+
+Week 1: Rock paper scissors
+peer 1 ? Great Job!
+peer 2 ? Good job!
+peer 3 ? [This area was left blank by the evaluator.]
+peer 4 ? Great job! As I mentioned, the variable name misspelling was the only issue, but it didn't cost you any points. For what it's worth, you also have an option to tweak your code that might help in later programs. Looking at your code that identifies the winner, you might want to consider using "elif" and "else" after your first "if" statement ("if winner == 0:"). Using them will make debugging your program logic MUCH easier in certain cases when you get to more complex programs. The current chain of "if" statements, while correct in this case, can lead to logic failures in other circumstances that make it difficult to track down. Also, you might want to consider combining the conditions so that all of the conditions that lead to the same result are on the same line. For example, "winner == 1 or winner == 2" as a single condition check is more manageable than two separate checks on two separate lines, "winner == 1" and "winner == 2". Keep up the excellent work! Good luck...
+
+Week 2: Guess the number
+peer 1 ? Overall good job. The users may get errors guessing because for each round you are summing the secret_number and comparing the user's guess to the sum. For example if I play three games in a row and the secret_number generated for each round is 15, 64, and 43. Then the numbers (stored in cpu_number) that the user is actually trying to guess are 15 (0 + 15), 79 (0 + 15 + 64) and 122 (0 + 15 + 64 + 43). This is caused by line 13 "cpu_number += secret_number". I don't think you need this line and can compare guess with secret_number. For example line 42 should be written as: (float(guess) <> secret_number)):
+peer 2 ? Great job! Especially the 'Number is not in valid range' part!
+peer 3 ? very good !!

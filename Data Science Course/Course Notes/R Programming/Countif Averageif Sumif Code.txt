@@ -5,12 +5,15 @@ class <- sapply(data, class)
 data <- read.csv("quiz week 1 data.csv", 
                  colClasses = class)
 
+#vLookup
+lookup_row <- which(data$State == "MO" & complete.cases(data$heart_attack) == T)
+lookup_col <- which(colnames(data)=="Hospital.Name")
+as.vector(data[lookup_row,lookup_col])
+
 
 #Countifs Solar.R where Ozone > 31 and Temp > 90
 subset <- data[data$Ozone > 31 & data$Temp > 90,]
-sum(complete.cases(subset$Solar.R) == TRUE)
-sum(!is.na(subset$Solar.R) == TRUE)
-
+sum(complete.cases(subset$Solar.R))
 
 #Averageifs
 subset <- data[data$Ozone > 31 & data$Temp > 90,]

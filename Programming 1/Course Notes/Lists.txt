@@ -1,0 +1,19 @@
+#Lists
+try:
+    import simplegui
+except ImportError:
+    import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
+mt_list = []
+print(mt_list)
+
+x = [1, 3, 4, 2]
+print(x)
+
+print(len(x))
+print("first element:", x[0])
+print("last element:",x[-2])
+
+# Enjoy the game!
+# Yours,
+# Cypher

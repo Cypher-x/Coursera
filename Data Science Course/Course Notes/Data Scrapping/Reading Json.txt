@@ -1,0 +1,5 @@
+library(jsonlite)
+library(curl)
+jsonData <- fromJSON("https://api.github.com/users/jtleek/repos")
+names(jsonData)
+names(jsonData$owner)

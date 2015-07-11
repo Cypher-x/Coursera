@@ -1,0 +1,29 @@
+#Working with Dates
+date()
+d2 <- Sys.Date()
+
+# %m = month as number
+# %d = day as number
+# %y, %Y = 2 or 4 digit year
+# %a, %A = abbrev / unabbrev weekday
+# %b, %B = abbrev / unabbrev month
+format(d2, "%y %m %d")
+weekdays(d2)
+months(d2)
+
+#converting dates
+x = c("1jan1960","2jan1960","31mar1960")
+z = as.Date(x, "%d%b%Y")
+z[1] - z[2]
+as.numeric(z[1] - z[2])
+
+#julian dates, orgin date = 1970-01-01
+julian(d2)
+
+#using lubridate
+library(lubridate)
+d2_formatted <- as.numeric(format(d2, "%Y%m%d"))
+ymd("20140108")
+ymd(d2_formatted)
+
+wday(d2, label = TRUE)

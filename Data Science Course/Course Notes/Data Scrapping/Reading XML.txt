@@ -1,0 +1,19 @@
+library(XML)
+fileURL <- "http://www.w3schools.com/xml/simple.xml"
+doc <- xmlTreeParse(fileURL,useInternalNodes = TRUE)
+#also htmlTreeParse
+
+rootNode <- xmlRoot(doc)
+xmlName(rootNode)
+
+##Extracting the first item
+rootNode[[1]]
+
+##Extracting the names of the food items in the xml file
+xml_name <- xpathSApply(rootNode,"//name",xmlValue)
+
+##Extracting the names of the food items in the xml file
+xml_price <- xpathSApply(rootNode,"//price",xmlValue)
+
+##Creates the matrix of Food and Prices
+cbind(xml_name,xml_price)

@@ -1,0 +1,26 @@
+graph parameters
+pch = 20 --- plotting character: 20, 19, 1, 15, 17, 18, "*", "abc"
+main = "Title" --- title
+lty = "solid" --- line type: "solid", "dash"
+lwd = 2 --- line width
+col = green --- color, colors()
+xlab = "measures" --- x labels
+xlim = c(0, 1200) --- x axis limit 
+
+
+global parameters within par()
+las - orientation of axis labels
+bg - bg color: "transparent"
+mar - margin size
+oma - outer margin size
+mfrow - number of plots per row / column
+mfcol - number of plots per row / column
+
+plottng functions
+plot - scatterplot
+lines - add line
+poins - add point to plot
+text - add text labels within plot
+title - add annotations outside plot like axis labels
+mtext - add text in margins
+axis - add axis ticks

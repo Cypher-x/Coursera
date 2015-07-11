@@ -1,0 +1,11 @@
+setwd("H:/5 Personal Projects/Coursera/Data Science Course/R Data")
+
+library(dplyr)
+chicago_data <- readRDS("chicago.rds")
+names(chicago_data)
+
+#filter chicago data 
+chic_f <- filter(chicago_data, pm25tmean2 > 30 & tmpd > 80)
+
+#arranging data by a variable
+chic_date <- arrange(chicago_data, desc(date))

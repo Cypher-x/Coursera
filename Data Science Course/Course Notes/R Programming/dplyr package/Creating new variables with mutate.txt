@@ -1,0 +1,35 @@
+setwd("H:/5 Personal Projects/Coursera/Data Science Course/R Data")
+
+library(dplyr)
+chicago_data <- readRDS("chicago.rds")
+names(chicago_data)
+
+set.seed(13435)
+x <- data.frame("var1"=sample(1:5),
+                "var2"=sample(6:10),
+                "var3"=sample(11:15))
+x <- x[sample(1:5),]; x$var2[c(1,3)] = NA
+x
+
+#Mutate example 1:
+library(plyr)
+x_mutate <- mutate(x, Bigvar2 = 
+                     ifelse(var2 > 6, "high",
+                            ifelse(var2 <= 6, "low",
+                                   ifelse(var2 == NA, NA,
+                                          NA))))
+table(x_mutate$Bigvar2)
+
+
+#Mutate example 2:
+chicago_hot <- 
+  mutate(chicago_data, tempcat = 
+           ifelse(tmpd >= 80, "hot",
+                  ifelse(tmpd < 80,
+                         "not hot",
+                         ifelse(tmpd == NA, NA,
+                                NA))))
+                        
+hot_grouped <- group_by(chicago_hot, tempcat)
+
+table(chicago_hot$tempcat)

@@ -1,0 +1,41 @@
+#Add new column
+DT$w <- c(1,2,3,4,5)
+
+DT[,w:=c(1,2,3,4,5)]
+
+#Adding new column with multiple operations
+DT[,m:= {tmp<-(x+z); log2(tmp+5)}]
+
+#Adding Binary column
+DT[,a:=x>0]
+
+#Count the number of times object appears
+DT <- data.table(xy=sample(letters[1:3], 1E5, TRUE))
+DT[, .N, by=y]
+
+#Set up Keys
+setkey(DT,y)
+DT["a"]
+
+#Column Naming
+colnames(data) <- c("patient", "age", "gender")
+
+
+# Lapply - takes a list and apply a function to each element of a list. returns a list.
+x <- list(a = 1:5, b = rnorm(10))
+lapply(x, mean)
+
+# example: Annoymous functions in lapply. A function within lapply, calls the frist row of the matrix
+x <- list(a = matrix(1:4, 2, 2), b = matrix(1:6, 3, 2))
+x
+
+lapply(x, function(row_1) row_1[1,])
+
+
+# Sapply - takes a list and apply a function to each element of a list. but returns a vector.
+#split takes x and apply it the number of factors identified in f.
+
+library(datasets)
+data(mtcars)
+
+sapply(split(mtcars$mpg, mtcars$cyl), mean)

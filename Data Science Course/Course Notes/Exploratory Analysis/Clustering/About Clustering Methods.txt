@@ -1,0 +1,33 @@
+Hierarchical clustering
+-Clustering Requires: (1) define distance and (2) define merge approach
+-organizing data into a hierarchicy
+-grouping the data into balls and the balls group to bigger balls
+-essentially find the points in the data that are closest together
+  and then merge them together into a "merged point" then repeat
+
+(1) define distance - define a notion for what it means for points to be "close":
+-Euclidian distance - continuous variables, straight line
+-Manhattan distance - binary variables
+-Correlation distance - correlation, similarity between variables
+-Minimum variance distance - Ward's method
+
+Key is to pick the type of distance 
+that makes the most sense for your problem.
+
+(2) define merge approach - where is the super-point's position:
+- Average linkage - middle of that group of points
+- Complete linkage - take the distance of the farthest points 
+
+Gallery of R created dendrograms
+http://gallery.r-enthusiasts.com/RGraphGallery.php?graph=79
+
+
+K-Means Clustering
+-Partioning Approach:
+  (1) Pick fix number of clusters
+  (2) Pick "centroids" or "focal points" for each cluster
+  (3) Recalculate
+-Kmeans produces a final estimate of: 
+  (1) where the "focal points"
+  (2) an assignment of each point to a cluster
+

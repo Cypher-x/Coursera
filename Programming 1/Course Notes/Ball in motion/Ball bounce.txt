@@ -1,0 +1,41 @@
+# Ball collision and reflect
+try:
+    import simplegui
+except ImportError:
+    import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
+#Initialize global
+width = 600
+height = 400
+ball_radius = 20
+
+ball_pos = [width / 2, height / 2]
+vel = [-80.0 / 60.0, 80.0 / 60.0]
+
+#Handlers
+def draw(canvas):
+    #Update ball position
+    ball_pos[0] += vel[0]
+    ball_pos[1] += vel[1]
+
+    if ball_pos[0] <= ball_radius:
+        vel[0] = - vel[0]
+    elif ball_pos[0] >= (width - 1)-ball_radius:
+        vel[0] = - vel[0]
+    elif ball_pos[1] <= ball_radius:
+        vel[1] = - vel[1]
+    elif ball_pos[1] >= (height - 1)-ball_radius:
+        vel[1] = - vel[1]
+
+    canvas.draw_circle(ball_pos, ball_radius, 2, "Green", "White")
+
+#Create frame and Register event handlers
+frame = simplegui.create_frame("Ball in Motion", width, height)
+frame.set_draw_handler(draw)
+
+frame.start()
+
+
+# Enjoy the game!
+# Yours,
+# Cypher

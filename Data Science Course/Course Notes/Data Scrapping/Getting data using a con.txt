@@ -1,0 +1,17 @@
+#Scraping Data from the web
+# Example link: 
+#"http://scholar.google.com/citations?user=HI-I6C0AAAAJ&hl=en"
+
+#open a connection
+con = url("http://scholar.google.com/citations?user=HI-I6C0AAAAJ&hl=en")
+htmlCode = readLines(con)
+close(con)
+
+#Using XML package
+library(XML)
+url <- "http://scholar.google.com/citations?user=HI-I6C0AAAAJ&hl=en"
+html <- htmlTreeParse(url, useInternalNodes = TRUE)
+
+#Pull out title and citations
+xpathSApply(html,"//title",xmlValue)
+xpathSApply(html, "//td[@id='col-citedby']", xmlValue)

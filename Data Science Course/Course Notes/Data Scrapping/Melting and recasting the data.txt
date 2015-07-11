@@ -1,0 +1,17 @@
+library(reshape2)
+head(mtcars)
+
+#Melting the data
+mtcars$carname <- rownames(mtcars)
+carMelt <- melt(mtcars,id=c("carname","gear","cyl"),
+                measure.vars=c("mpg","hp"))
+
+#Casting the data: number of mpg obs and hp obs 
+# for 4, 6, and 8 cyl cars
+cylData <- dcast(carMelt, cyl ~ variable,length)
+cylData
+
+#Casting the data: mean of mpg and hp 
+# for 4, 6, and 8 cyl cars
+cylData <- dcast(carMelt, cyl ~ variable,mean)
+cylData

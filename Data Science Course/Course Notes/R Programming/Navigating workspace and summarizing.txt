@@ -1,15 +1,21 @@
-setwd("C:/Users/wcai/Desktop/Coursera/Data Science course/R data")
+setwd("H:/5 Personal Projects/Coursera/Data Science Course/R Data/")
 getwd()
+
+read.csv()
+library(data.table)
+fread()
 
 list.files()
 #lists files in working directory
 
-head(data, 10)
+print(object.size(data),units = "Mb")
+#prints size of the object
+
+head(data, n=10)
 #provides a quick glance at the data, first 10 rows
 
-tail(data, 10)
+tail(data, m=10)
 #provides a quick glance at the data, last 10 rows
-
 
 dim(data)
 #shows number of rows and columns
@@ -18,13 +24,24 @@ nrow(data)
 #number of rows
 
 summary(data)
+#give info on every variable
 
 names(data)
 #names of columns
 
-str()
-#provides a quick glance at the structure of an object
+str(data)
+#provides infor on dataframe
 
+table(data$CompanyName,useNA="ifany")
+#creates a table on the number of Ns for each CompanyName, also pull out any NAs
 
+table(data$CompanyName == "Deloitte")
+#number of values that are "Deloitte"
+
+xt <- xtabs(Freq ~ Gender + Admit, data=DF)
+xt
+
+#Summarizing Data
+DT[,list(mean(x),sum(z))]
 
 

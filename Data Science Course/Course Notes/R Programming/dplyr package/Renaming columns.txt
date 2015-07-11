@@ -1,0 +1,10 @@
+setwd("H:/5 Personal Projects/Coursera/Data Science Course/R Data")
+
+library(dplyr)
+chicago_data <- readRDS("chicago.rds")
+names(chicago_data)
+
+#rename variable
+chicago_data <- rename(chicago_data, pm25 = pm25tmean2,
+                       dewpoint = dptp)
+head(chicago_data)

@@ -1,0 +1,7 @@
+dir_plotsave <- "H:/5 Personal Projects/Coursera/Data Science Course/Projects/Household power consumption/"
+
+setwd(dir_plotsave)
+dev.copy(png, file="plot1.png", height=480, width=480)
+dev.off()
+dev.off(dev.list()["RStudioGD"])
+setwd(dir)

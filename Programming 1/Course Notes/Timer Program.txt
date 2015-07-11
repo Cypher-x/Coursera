@@ -1,27 +1,42 @@
+#Timer Program
+
 import simplegui
 
 #Global
 counter = 0
+
 #Helper
 def increment():
     global counter
-    counter = counter + 1
+    counter += 0.1
 
-#Handler
+#Timer Controls Handlers
 def tick():
     increment()
     print counter
-def buttonpress():
+
+def button_start():
+    timer.start()
+
+def button_stop():
+    timer.stop()
+    
+def button_reset():
+    timer.stop()
     global counter
     counter = 0
     
-# Create a frame
-frame = simplegui.create_frame("SimpleGUI Test", 100, 100)
-
-#Register event handler
-timer = simplegui.create_timer(1000, tick)
-frame.add_button("Click me!", buttonpress)
+# Create a frame and register handler
+frame = simplegui.create_frame("Stopwatch", 300, 300)
+timer = simplegui.create_timer(100, tick)
+frame.add_label("Stopwatch")
+frame.add_label(" ")
+frame.add_button("Start", button_start, 200)
+frame.add_button("Stop", button_stop, 200)
+frame.add_label(" ")
+frame.add_button("Reset", button_reset, 200)
 
 #Start frame and timer
 frame.start()
 timer.start()
+

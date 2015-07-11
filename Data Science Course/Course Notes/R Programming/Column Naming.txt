@@ -1,0 +1,8 @@
+#Column renaming
+colnames(data) <- c("patient", "age", "gender")
+
+#Naming Based on first row of Data frame
+colnames(data) = unlist(data_header[1, ])
+
+#Makes colnames into valid colnames
+names(data) = make.names(colnames(data))

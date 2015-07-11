@@ -1,0 +1,19 @@
+library(ggplot2)
+names(mpg)
+data_mpg <- mpg
+
+#Scatterplot with x = displ, y = hwy, specify drv by color
+qplot(displ, hwy, data = data_mpg, color = drv)
+
+#Scatterplot with a smoother or trendline
+qplot(displ, hwy, data = data_mpg, geom = c("point","smooth"))
+
+#Histogram of one variable
+qplot(hwy, data = mpg, fill = drv)
+
+#Facets - pannels of plots, splitting by drv variable
+# number of rows and columns seperated by ~
+# Plot:
+qplot(displ, hwy, data = mpg, facets = .~drv)
+# Hist:
+qplot(hwy, data = mpg, facets = drv~., binwidth = 2)

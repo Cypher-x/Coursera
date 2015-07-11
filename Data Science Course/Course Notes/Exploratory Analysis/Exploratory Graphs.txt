@@ -1,0 +1,75 @@
+#Exploratory Graphs
+
+setwd("H:/5 Personal Projects/Coursera/Data Science Course/R Data/")
+getwd()
+
+#be sure to unzip the file first
+dir_pm25data <- "PM25data/data/avgpm25.csv"
+
+pollution_data <- 
+  read.csv(dir_pm25data, 
+           colClass = c("numeric", "character", 
+                        "factor", "numeric", "numeric"))
+head(pollution_data)
+
+#Question: do any counties exceed the stadard pm25 of 12 ug/m^2
+
+summary(pollution_data$pm25)
+
+#box plot: shows that majority are under 12 but are over
+boxplot(pollution_data$pm25, col = "blue")
+abline(h=12)
+
+#histogram
+hist(pollution_data$pm25, col = "green", breaks = 100)
+rug(pollution_data$pm25)
+abline(v = 12, col = "magenta", lwd = 2)
+abline(v = median(pollution_data$pm25), col = "black", lwd = 2)
+
+#Bar Plot for catagorical variables
+barplot(table(pollution_data$region), col = "wheat"
+        , main = "Number of counties in Region (US)")
+
+#Comparing East West on pm25: 
+  #--Box
+boxplot(pm25 ~ region, data = pollution_data, col = "wheat")
+
+  #--Hist
+par(mfrow = c(2,1), mar = c(4, 4, 2, 1))
+hist(subset(pollution_data, region == "east")$pm25, 
+     main = "Eastern US", col = "green")
+hist(subset(pollution_data, region == "west")$pm25, 
+     main = "Western US", col = "green")
+  
+  #--Plot by latitude
+with(pollution_data, plot(latitude, pm25, col = region))
+abline(h = 12, lwd = 2, lty = 2)
+
+  #--Plot split east and west
+par(mfrow = c(1,2), mar = c(5, 4, 2, 1))
+with(subset(pollution_data, region == "west"),
+     plot(latitude, pm25, main = "West"))
+with(subset(pollution_data, region == "east"),
+     plot(latitude, pm25, main = "East"))
+
+#MNorth and South Analysis
+median_lat <- median(pollution_data$latitude)
+q75_lat <- as.numeric(quantile(pollution_data$latitude,.75))
+q25_lat <- as.numeric(quantile(pollution_data$latitude,.25))
+
+library(dplyr)
+pol_data2 <- 
+  mutate(pollution_data, 
+         region_lat = ifelse(
+           latitude >= q75_lat, "north",ifelse(
+           latitude <= q25_lat, "south",ifelse(
+           latitude < q75_lat & 
+             latitude > q25_lat, "mid",NA))))
+table(pol_data2$region_lat)
+
+
+par(mfrow = c(1,2), mar = c(5, 4, 2, 1))
+with(subset(pol_data2, region_lat == "south"),
+     plot(longitude, pm25, main = "South"))
+with(subset(pol_data2, region_lat == "mid"),
+     plot(longitude, pm25, main = "Mid"))

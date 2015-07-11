@@ -1,0 +1,9 @@
+fileUrl<-"https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD"
+download.file(fileUrl, destfile="C:/Users/wcai/Desktop/Coursera/Data Science course/R data/cameras.csv")
+list.files("C:/Users/wcai/Desktop/Coursera/Data Science course/R data/")
+
+dateDownloaded <- date()
+dateDownloaded
+
+## "cameras.csv"
+## Downloaded: "Sun Jun 07 00:29:52 2015"

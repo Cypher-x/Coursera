@@ -1,0 +1,23 @@
+library(InsectSprays)
+head(InsectSprays)
+
+#Splits and provides means for each insect spray
+spIns = split(InsectSprays$count,InsectSprays$spray)
+spIns
+sprCount = sapply(spIns, mean)
+sprCount
+
+#or all in one step
+sapply(split(InsectSprays$count,InsectSprays$spray),mean)
+
+
+#Splits and applies means of air quality to each month
+library(datasets)
+head(airquality)
+
+split_month <- split(airquality, airquality$Month)
+sapply(split_month, function(x) 
+  colMeans(x[,c("Ozone", "Solar.R", "Wind")],na.rm=T))
+
+#Split based on multiple factors
+str(split(x, list(f1, f2), drop = T))

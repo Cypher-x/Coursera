@@ -1,6 +1,17 @@
 Installed by: install.packages()
+- data.table
+- plyr
+- dplyr
 - XML
 - jsonlite
-- data.table
+- curl
 - xlsx
 - swirl
+- RmySQL (no compiler needed) http://www.ahschulz.de/2013/07/23/installing-rmysql-under-windows/
+- rhdf5 
+   ----- source("http://bioconductor.org/biocLite.R")
+   ----- biocLite("rhdf5")
+- httr
+- lubridate
+- lattice
+- ggplot2

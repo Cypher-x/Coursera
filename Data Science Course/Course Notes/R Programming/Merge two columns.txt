@@ -1,0 +1,2 @@
+
+power_smalldata <- within(power_smalldata, Date_Time <- paste(Date, Time, sep = " "))

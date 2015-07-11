@@ -1,0 +1,18 @@
+library(httr)
+
+myapp = oauth_app("twitter",
+                  key = "W2woNE5zCb3kimhb4ZiwdramJ",
+                  secret = "3dxprPHXP3n6hg1lr8MxEGDvfGMkkDHlMK0jgsmoOtws8uun6i")
+sig = sign_oauth1.0(myapp,
+                    token = "2604927687-1pJ17dFyj4ARbdVSktyBR7xLgxQS4KmFMp0ghSh",
+                    token_secret = "j6sW1aiFKoCnXrKWxmIC1yWTtrpQRNSCEzpBZa6exCfuU")
+
+#Get twitter searches as json
+homeTL = GET("https://api.twitter.com/1.1/search/tweets.json?q=%23superbowl&result_type=recent",sig)
+
+library(jsonlite)
+library(curl)
+
+json1 = content(homeTL)
+json2 = jsonlite::fromJSON(toJSON(json1))
+json2[1,1:4]

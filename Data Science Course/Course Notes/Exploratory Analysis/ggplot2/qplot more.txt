@@ -1,0 +1,22 @@
+dir <- "H:/5 Personal Projects/Coursera/Data Science Course/R Data/"
+setwd(dir)
+library(ggplot2)
+library(data.table)
+load("maacs.Rda")
+names(maacs)
+str(maacs)
+
+#Histogram, grouped by mpos
+qplot(log(eno), data = maacs, fill = mopos)
+
+#Histogram as density
+qplot(log(eno), data = maacs, geom = "density")
+qplot(log(eno), data = maacs, geom = "density", color = mopos)
+
+#Scatterplot with x = pm25, y = eno
+qplot(log(pm25), log(eno), data = maacs, color = mopos)
+
+#Trendline for 2 panels
+qplot(log(pm25), log(eno), data = maacs,
+      geom = c("point", "smooth"), method = "lm",
+      facets = .~mopos)

@@ -1,0 +1,45 @@
+# Ball in motion
+try:
+    import simplegui
+except ImportError:
+    import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
+#Initialize global
+width = 600
+height = 400
+ball_radius = 20
+
+init_pos = [width / 2, height / 2]
+vel = [0, 3] #pixels per tick
+time = 0
+
+#Helper
+def increment():
+    global time
+    time += 1
+
+
+#Define Handlers
+def tick():
+    increment()
+    print(time)
+
+def draw(canvas):
+    tick() #initialize ball motion upon draw.
+    ball_pos = [0, 0]
+    ball_pos[0] = init_pos[0] + time * vel[0]
+    ball_pos[1] = init_pos[1] + time * vel[1]
+    canvas.draw_circle(ball_pos, ball_radius, 2, "Green", "White")
+
+#Create frame and Register event handlers
+frame = simplegui.create_frame("Ball in Motion", width, height)
+frame.set_draw_handler(draw)
+timer = simplegui.create_timer(100, tick)
+
+frame.start()
+timer.start()
+
+
+# Enjoy the game!
+# Yours,
+# Cypher

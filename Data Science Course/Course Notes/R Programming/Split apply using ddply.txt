@@ -1,0 +1,14 @@
+library(InsectSprays)
+head(InsectSprays)
+library(plyr)
+
+#Applying function to set of variables
+
+#ddply(table,.(variable1, variable2),summarize,
+#     name=function(measured variable))
+ddply(InsectSprays,.(spray),summarize,mean=mean(count))
+
+#ddply the sum of A for every A in the data set
+spraySums <- ddply(InsectSprays,.(spray),summarize,sum=ave(count,FUN=sum))
+
+head(spraySums)

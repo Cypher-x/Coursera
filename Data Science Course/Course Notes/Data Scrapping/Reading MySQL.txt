@@ -1,0 +1,40 @@
+# Using RmySQL package to collect data from genome project
+# Database: genome.ucsc.edu/goldenPath/help/mysql.html
+library(DBI)
+library(RMySQL)
+
+#List all the databases in genome-mysql.cse.ucsc.edu
+ucscDb <- dbConnect(MySQL(),user="genome",
+                    host="genome-mysql.cse.ucsc.edu")
+result <- dbGetQuery(ucscDb,"show databases;"); dbDisconnect(ucscDb);
+    #Note: "show databases;" is a mySQL command that shows the
+    # databases in the server
+
+#Focus on database called hg19 and list the tables
+hg19 <- dbConnect(MySQL(),user="genome", db="hg19",
+                  host="genome-mysql.cse.ucsc.edu")
+allTables <- dbListTables(hg19)
+length(allTables)
+      #Show number of tables in hg19
+allTables[1:5]
+
+#Focus on fields in one table: affyU133Plus2
+dbListFields(hg19,"affyU133Plus2")
+    #"Column names"
+dbGetQuery(hg19, "select count(*) from affyU133Plus2")
+    #Number of Rows - sql cammand: 
+    #  "select count(*)" - counts # of records
+
+#Get the table out of the database
+affyData <- dbReadTable(hg19, "affyU133Plus2")
+head(affyData)
+
+#Select subset of the table where column "misMatches"
+# is between 1 and 3
+query <- dbSendQuery(hg19, "select * from affyU133Plus2 
+                     where misMatches between 1 and 3")
+affyMis <- fetch(query); quantile(affyMis$misMatches)
+affyMisSmall <- fetch(query,n=10); dbClearResult(query);
+dim(affyMisSmall)
+
+dbDisconnect(hg19)
